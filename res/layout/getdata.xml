@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical" android:layout_height="fill_parent" android:layout_width="fill_parent">
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/title_getdata"></TextView>
+<LinearLayout android:layout_height="wrap_content" android:layout_width="fill_parent" android:orientation="horizontal"><Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/getdata_btn_close" android:text="@string/lbl_close"></Button><Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/getdata_btn_getstart" android:text="@string/lbl_getstart" android:enabled="false"></Button>
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/getdata_btn_getstop" android:text="@string/lbl_getstop" android:enabled="false"></Button>
+</LinearLayout>
+
+<LinearLayout android:id="@+id/LinearLayout01" android:layout_width="wrap_content" android:layout_height="wrap_content"><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lbl_status"></TextView><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/getdata_status"></TextView></LinearLayout>
+
+
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/getdata_result"></TextView>
+</LinearLayout>

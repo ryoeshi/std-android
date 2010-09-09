@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <string name="hello">Hello World, main!</string>
+    <string name="app_name">MyApplication</string>
+<string name="lbl_getdata">データ取得</string>
+<string name="lbl_editdata">データベース編集</string>
+<string name="title_getdata">データ取得画面</string>
+<string name="lbl_close">閉じる</string>
+<string name="title_main">メイン画面</string>
+<string name="editdata_lbl_plan">plan: </string>
+<string name="editdata_lbl_date">date: </string>
+<string name="title_editdata">ＤＢ編集画面</string>
+<string name="main_menu_my_location">現在地を表示（Google マップ）</string>
+<string name="main_menu_version">バージョン情報</string>
+<string name="main_menu_exit">終了</string>
+<string name="app_version">0.01</string>
+<string name="title_version">バージョン情報</string>
+<string name="lbl_delete_all">データ全削除</string>
+<string name="lbl_auto_insert">4?件挿入</string>
+<string name="lbl_reload">再表示</string>
+<string name="lbl_add_new">新規追加</string>
+<string name="lbl_edit">編集</string>
+<string name="msg_getstart">データの取得を開始しました</string>
+<string name="msg_getfinish">データの取得が完了しました</string>
+<string name="msg_getstop">データの取得を中止しました</string>
+
+<string name="lbl_getstart">取得開始</string>
+<string name="lbl_getstop">取得中止</string>
+
+<string name="lbl_status">状態：</string>
+<string name="status_process">取得中</string>
+<string name="status_stop">中断</string>
+<string name="status_finish">完了</string>
+</resources>

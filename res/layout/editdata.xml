@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+	<TextView android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/title_editdata">
+	</TextView>
+	<LinearLayout android:layout_height="wrap_content"
+		android:layout_width="fill_parent">
+		<Button android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/lbl_close"
+			android:id="@+id/editdata_btn_close">
+		</Button>
+	<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lbl_delete_all" android:id="@+id/editdata_btn_delete_all"></Button>
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/editdata_btn_auto_insert" android:text="@string/lbl_auto_insert"></Button>
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/editdata_btn_reload" android:text="@string/lbl_reload"></Button>
+</LinearLayout>
+	<LinearLayout android:layout_height="wrap_content"
+		android:layout_width="fill_parent">
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/editdata_lbl_date">
+		</TextView>
+		<EditText android:layout_height="wrap_content"
+			android:layout_width="fill_parent"
+			android:id="@+id/editdata_edit_date"
+			android:singleLine="true">
+		</EditText>
+	</LinearLayout>
+	<LinearLayout android:layout_height="wrap_content"
+		android:layout_width="fill_parent">
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/editdata_lbl_plan">
+		</TextView>
+		<EditText android:layout_height="wrap_content"
+			android:layout_width="fill_parent"
+			android:id="@+id/editdata_edit_plan"
+			android:singleLine="true">
+		</EditText>
+	</LinearLayout>
+	<TextView android:layout_height="wrap_content"
+		android:text="@string/hello"
+		android:layout_width="wrap_content"
+		android:id="@+id/text_hello">
+	</TextView>
+</LinearLayout>
